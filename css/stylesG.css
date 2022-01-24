@@ -1,0 +1,123 @@
+/*DESKTOP*/
+
+/*Nav Bar Begin*/
+#ulone {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 26%;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-size: 18pt;
+}
+
+#lione {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#lione a {
+  display: block;
+  color: rgb(94, 94, 94);
+  text-align: center;
+  padding: 25px 18px;
+  text-decoration: none;
+}
+
+#lione a:hover:not(.active) {
+  color: rgb(0, 0, 0);
+}
+
+#lione .active {
+  color: rgb(0, 0, 0);
+}
+/*Nav Bar End*/
+
+/*Header IMG Begin*/
+header {
+  overflow: hidden;
+}
+
+header img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/*Header IMG End*/
+
+/*General Formatting Begin*/
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 26pt;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  text-align: Left !important;
+}
+
+ol {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  text-align: Left !important;
+}
+
+/*Footer Begin*/
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-decoration: none !important;
+}
+
+/*Footer End*/
+
+
+#B1 {
+  background-color: rgb(221, 221, 221);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 3px solid #727272;
+}
+
+#RECP {
+  padding: 15px !important;
+  height: 200px;
+  box-shadow: 5px 5px 5px;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+}

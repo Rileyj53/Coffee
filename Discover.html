@@ -1,0 +1,81 @@
+<!-- DESKTOP-->
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Discover</title>
+    <meta name="description" content="A website about coffee">
+    <meta name="author" content="Riley Jacobson">
+    <link rel="stylesheet" href="css/stylesG.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script SRC="js.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!--Navigation-->
+        <ul id="ulone">
+            <li id="lione"><a href="index.html">Home</a></li>
+            <li id="lione"><a href="History.html">History</a></li>
+            <li id="lione"><a href="ATW.html">Around the World</a></li>
+            <li id="lione"><a class="active" href="Discover.html">Discover</a></li>
+            <li id="lione"><a href="Recipes.html">Recipes</a></li>
+            <li id="lione"><a href="Resources.html">Resources</a></li>
+    
+        </ul>
+        <!--Header Image-->
+        <img src="Img/head.jpg" alt=""/>
+    </header>
+
+    <h1>About this page</h1>
+    <p>This page is all about discovering something new! click the button below and you will be taken to a random page.
+        This page could be about the history of coffee, or it could be a unique recipe that you can try at home!
+        Discovery awaits!
+
+    </p>
+    <!--Random page code code adapted from (“Cut and Paste JavaScript-Random Link Generator”)-->
+    <script>
+        var randomlinks = new Array()
+
+        randomlinks[1] = "discover/puertoRico.html"
+        randomlinks[2] = "discover/guatemala.html"
+        randomlinks[3] = "discover/costaRica.html"
+        randomlinks[4] = "discover/colombia.html"
+        randomlinks[5] = "discover/ethiopia.html"
+        randomlinks[6] = "discover/brazil.html"
+        randomlinks[7] = "discover/indonesia.html"
+        randomlinks[8] = "discover/mexico.html"
+        randomlinks[9] = "discover/Carajillo.html"
+        randomlinks[10] = "discover/Cortadito.html"
+        randomlinks[11] = "discover/cafe-con-leche.html"
+        randomlinks[12] = "discover/Cafe-De-Olla.html"
+        randomlinks[13] = "discover/Kopi-Joss.html"
+        randomlinks[14] = "discover/Es-Alpukat-Kopi.html"
+        randomlinks[15] = "discover/Mocha-Cola.html"
+        randomlinks[16] = "discover/Cafezinho.html"
+
+        function randomlink() {
+            window.location = randomlinks[Math.floor(Math.random() * randomlinks.length)]
+        }
+
+    </script>
+
+    <form method="post">
+        <p><input type="button" id="B1" value="Take me to a random page! >>" onclick="randomlink()"></p>
+    </form>
+
+    <footer>
+        <p>Author: Riley Jacobson<br>
+            <a href="mailto:jrileyjacobson@gmail.com">jrileyjacobson@gmail.com</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,578 @@
+/*Nav Bar Begin*/
+#ulone {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 26%;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-size: 18pt;
+}
+
+#lione {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#lione a {
+  display: block;
+  color: rgb(94, 94, 94);
+  text-align: center;
+  padding: 25px 18px;
+  text-decoration: none;
+}
+
+#lione a:hover:not(.active) {
+  color: rgb(0, 0, 0);
+}
+
+#lione .active {
+  color: rgb(0, 0, 0);
+}
+/*Nav Bar End*/
+
+/*Header IMG Begin*/
+header {
+  overflow: hidden;
+}
+
+header img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/*Header IMG End*/
+
+/*General Formatting Begin*/
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 26pt;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  text-align: Left !important;
+}
+
+/*General Formatting End*/
+
+/*Flag Spacing Begin*/
+
+#ATWNav {
+  padding: 15px !important;
+  height: 200px;
+  box-shadow: 5px 5px 5px;
+}
+
+.center {
+  margin: auto;
+  width: 85%;
+}
+/*Flag Spacing End*/
+
+/*Popup sizing Begin*/
+#popP {
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+/*Popup sizing End*/
+
+/*Popup code adapted from (“A Very Simple Popup Box - HTML, CSS, JavaScript”)*/
+
+/*Mexico Popup Begin*/
+.hover_bkgr_Mexico {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Mexico .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Mexico > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Mexico {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Mexico Popup End*/
+
+/*Puerto Rico Popup Begin*/
+.hover_bkgr_Puerto {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Puerto .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Puerto > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Puerto {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Puerto Rico Popup End*/
+
+/*Guatemala Popup Begin*/
+.hover_bkgr_Guatemala {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Guatemala .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Guatemala > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Guatemala {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Guatemala Popup End*/
+
+/*Costa Rica Popup Begin*/
+.hover_bkgr_Costa {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Costa .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Costa > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Costa {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Costa Rica Popup End*/
+
+/*Colombia Popup Begin*/
+.hover_bkgr_Colombia {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Colombia .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Colombia > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Colombia {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Colombia Popup End*/
+
+/*Ethiopia Popup Begin*/
+.hover_bkgr_Ethiopia {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Ethiopia .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Ethiopia > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Ethiopia {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Ethiopia Popup End*/
+
+/*Brazil Popup Begin*/
+.hover_bkgr_Brazil {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Brazil .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Brazil > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Brazil {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Brazil Popup End*/
+
+/*indonesia Popup Begin*/
+.hover_bkgr_indonesia {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_indonesia .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_indonesia > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_indonesia {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*indonesia Popup End*/
+
+/*Footer Begin*/
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-decoration: none !important;
+}
+
+/*Footer End*/

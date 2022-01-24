@@ -1,0 +1,589 @@
+/*Nav Bar Begin*/
+#ulone {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 26%;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-size: 18pt;
+}
+
+#lione {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#lione a {
+  display: block;
+  color: rgb(94, 94, 94);
+  text-align: center;
+  padding: 25px 18px;
+  text-decoration: none;
+}
+
+#lione a:hover:not(.active) {
+  color: rgb(0, 0, 0);
+}
+
+#lione .active {
+  color: rgb(0, 0, 0);
+}
+/*Nav Bar End*/
+
+/*Header IMG Begin*/
+header {
+  overflow: hidden;
+}
+
+header img {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/*Header IMG End*/
+
+/*General Formatting Begin*/
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 26pt;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  text-align: Left !important;
+}
+
+/*General Formatting End*/
+
+/*Flag Spacing Begin*/
+
+#ATWNav {
+  padding: 15px !important;
+  height: 200px;
+  box-shadow: 5px 5px 5px;
+}
+
+.center {
+  margin: auto;
+  width: 85%;
+}
+/*Flag Spacing End*/
+
+/*Popup sizing Begin*/
+#popP {
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+/*Popup sizing End*/
+
+/*Popup code adapted from (“A Very Simple Popup Box - HTML, CSS, JavaScript”)*/
+
+/*Carajillo Popup Begin*/
+.hover_bkgr_Carajillo {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Carajillo .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Carajillo > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Carajillo {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Carajillo Popup End*/
+
+/*Cortadito Popup Begin*/
+.hover_bkgr_Cortadito {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Cortadito .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Cortadito > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Cortadito {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Cortadito Popup End*/
+
+/*cafe-con-leche Popup Begin*/
+.hover_bkgr_cafe-con-leche {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_cafe-con-leche .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_cafe-con-leche > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_cafe-con-leche {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*cafe-con-leche Popup End*/
+
+/*Cafe-De-Olla Popup Begin*/
+.hover_bkgr_Cafe-De-Olla {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Cafe-De-Olla .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Cafe-De-Olla > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Cafe-De-Olla {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Cafe-De-Olla Popup End*/
+
+/*Kopi-Joss Popup Begin*/
+.hover_bkgr_Kopi-Joss {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Kopi-Joss .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Kopi-Joss > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Kopi-Joss {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Kopi-Joss Popup End*/
+
+/*Es-Alpukat-Kopi Popup Begin*/
+.hover_bkgr_Es-Alpukat-Kopi {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Es-Alpukat-Kopi .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Es-Alpukat-Kopi > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Es-Alpukat-Kopi {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Es-Alpukat-Kopi Popup End*/
+
+/*Mocha-Cola Popup Begin*/
+.hover_bkgr_Mocha-Cola {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Mocha-Cola .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Mocha-Cola > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Mocha-Cola {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Mocha-Cola Popup End*/
+
+/*Cafezinho Popup Begin*/
+.hover_bkgr_Cafezinho {
+  background: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.hover_bkgr_Cafezinho .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.hover_bkgr_Cafezinho > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 75%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 2%;
+}
+.popupCloseButton {
+  background-color: #fff;
+  border: 3px solid #999;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+.trigger_popup_Cafezinho {
+  cursor: pointer;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+/*Cafezinho Popup End*/
+
+/*Footer Begin*/
+footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-decoration: none !important;
+}
+
+/*Footer End*/
+
+#RECP {
+  padding: 15px !important;
+  height: 200px;
+  box-shadow: 5px 5px 5px;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+}
